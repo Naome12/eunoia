@@ -2,7 +2,14 @@ import React from 'react'
 
 const Services = () => {
   return (
-    <div>Services</div>
+    <div className='services'>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    </div>
   )
 }
 

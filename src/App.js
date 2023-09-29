@@ -5,11 +5,14 @@ import About from './components/About';
 import Contact from './components/Contact'
 import Services from './components/Services'
 import Page from './components/Page'
+import Trust from './components/Trust';
 function App() {
   return (
     <Router>
       <div>
         <Home/>
+        <Trust/>
+        <About/>
         <Routes>
         <Route path="/" exact component={Home} />
         <Route path="/about" exact component={About} />

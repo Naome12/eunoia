@@ -1,3 +1,128 @@
 @import 'tailwindcss/base';
 @import 'tailwindcss/components';
 @import 'tailwindcss/utilities';
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.space{
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+}
+
+.links{
+    color: white;
+    font-weight: bold;
+    padding: 1rem;
+    font-size: x-large;
+}
+
+
+.links:hover{
+    text-decoration: underline;
+}
+
+main{
+    margin: 4rem;
+    color: white;
+}
+
+.text{
+    font-weight: 800;
+    font-size:  6rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.text1{
+    font-weight: 5;
+    padding-top: 2em;
+}
+
+button{
+    color: white;
+    background-color: #31D982;
+   
+}
+
+.btn1{
+    padding: 5px;
+    font-size: 1.2rem;
+    margin: 15px;
+    border: none;
+}
+
+.btn2{
+    margin: 2rem;
+    padding: 10px;
+    font-size: 1.5rem;
+    border: none;
+}
+
+
+/* trust */
+
+.trust, .about , .services{
+    background-color: #0B2347;
+    background-size: cover;
+    min-height:100vh;
+}
+
+.text-blue{
+    text-align: center;
+    color: #0b0041;
+
+}
+
+.logos{
+    display: flex;
+    justify-content: space-around;
+}
+
+.logos img{
+    width: 100px;
+}
+
+.pcode h2{
+    float: left;
+    color: #0B5699;
+    font-size: xx-large;
+    text-transform: capitalize;
+}
+
+.pcode p{
+    float: left;
+    color: white;
+
+}
+
+.pcode img{
+    width: 50vw;
+    height: 70vh;
+    float: right;
+    margin: 2em;
+}
+
+.bett button{
+    margin: 2rem;
+    padding: 10px;
+    font-size: 1.5rem;
+    border: none;
+}
+
+
+/* about */
+
+.pcode1{
+    float:left;
+}
+
+.pcode1 img{
+    width: 50vw;
+    height: 70vh;
+}
+
